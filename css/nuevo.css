@@ -1,0 +1,39 @@
+.bg2 {
+    background-image: url('/resources/images/crystalpines.jpg');
+}
+.bg {
+    padding: 170px 5%;
+    background-position: 100% center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: none;
+    z-index: 1;
+}
+section {
+    padding: 100px 5%;
+    box-shadow: 0 0 50px 10px rgba(0, 0, 0, .7);
+    z-index: 2;
+    position: relative;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font: 16px 'Avenir Next', 'Muli', 'Open Sans', sans-serif;
+}
+/*<section class="bg bg2">
+<h2></h2>
+</section>
+selecciona el valor de datalist
+function seleccionar() {
+    var valor = document.getElementById("listaPfs").value;
+    var opciones = document.getElementById('listaPfs').childNodes;
+    for (var i = 0; i < opciones.length; i++) {
+      if (opciones[i].value === valor) {
+        desplegar(opciones[i].value);
+        break;
+      }
+    }
+  }*/

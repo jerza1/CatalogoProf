@@ -1,0 +1,33 @@
+[{
+	"Nombre":"Francisco",
+	"Apellido":"Bautista",
+	"Edad":23,
+	"Carrera":"Computacion",
+	"Semestre":"septimo",
+	"Matricula":2011020333
+},
+{
+	"Nombre":"Tachi",
+	"Apellido":"Tachi",
+	"Edad":12,
+	"Carrera":"Mecatronica",
+	"Semestre":"septimo",
+	"Matricula":2013333020
+},
+{
+	"Nombre":"Chenchu",
+	"Apellido":"Rey",
+	"Edad":21,
+	"Carrera":"Computacion",
+	"Semestre":"septimo",
+	"Matricula":2011010223
+},
+{
+	"Nombre":"Jerzain",
+	"Apellido":"Reyes",
+	"Edad":23,
+	"Carrera":"Matematicas",
+	"Semestre":"septimo",
+	"Matricula":2011023302
+}
+]

@@ -1,0 +1,42 @@
+html,body{
+	height: 100%;
+}
+body{
+	background-color: rgba(48, 107, 120, 0.8);
+	margin: 0px;
+	padding: 0px;
+	overflow-y: scroll;
+}
+.contenedor{
+	margin: 0px auto;
+	border: 2px solid;
+	max-width: 900px;
+	min-height: 100%;
+	height: auto;
+	background-color: ghostwhite;
+	overflow: auto;
+}
+h1{
+	color:white;
+	font-size: 35px;
+	font-family: Georgia, serif;
+	background-color: rgba(0, 0, 0, 0.8);
+	margin:0px 0px 30px;
+	padding: 30px;
+	box-shadow: inset 0 10px 20px rgba(0, 0, 0, 0.8);
+}
+#lienzo{
+	border: 2px solid black;
+	margin: 0px 123px 0px 123px;
+}
+footer{
+	margin: 0px auto;
+	width: auto;
+	height: 100px;
+	text-align: center;
+	color : black;
+	font-family: "Times New Roman", Times, serif;
+	background-color: #EDECEC;
+	padding-top: 20px;
+	box-shadow: inset 0 5px 15px rgba(0, 0, 0,0.2);
+}

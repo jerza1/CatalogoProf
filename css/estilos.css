@@ -1,0 +1,101 @@
+html,body{
+	height: 100%;
+}
+body{
+	background-color: rgba(48, 107, 120, 0.8);
+	margin: 0px;
+	padding: 0px;
+	overflow-y: scroll;
+}
+.contenedor{
+	margin: 0px auto;
+	border: 2px solid;
+	max-width: 900px;
+	min-height: 100%;
+	height: auto;
+	background-color: ghostwhite;
+	overflow: auto;
+}
+.title{
+	color:white;
+	font-size: 35px;
+	font-family: Georgia, serif;
+	background-color: rgba(0, 0, 0, 0.8);
+	margin:0px 0px 30px;
+	padding: 30px;
+	box-shadow: inset 0 10px 20px rgba(0, 0, 0, 0.8);
+}
+.etqlista{
+	font:25px Georgia,serif;
+	margin: 10px;
+}
+#inst{
+	font-size: 15px;	
+	font-family: sans-serif;
+	margin: 0px 10px;
+	width: 350px;
+	height: 30px;
+}
+#catalogo{
+	margin: 10px 10px 30px 10px;
+	float: left;
+	max-width: 380px;
+	height: auto;
+	background: black;
+	overflow: auto;
+}
+.title2{
+	font-size: 20px;
+	font-family: Georgia, serif;
+	background-color: lightblue;
+	margin: 0px auto;
+	padding: 10px;
+}
+#profes{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	font: 15px Georgia,serif;
+}
+#profes li{
+	background-color: ghostwhite;
+	padding: 5px;
+	vertical-align: top;
+	margin: 0px 0px 1px;
+	cursor: default;
+}
+#profes li:hover{
+	background-color: #c6c6e9;
+}
+#inf{
+	background-color: rgba(0,0,255,0.4);
+    margin: 56px 100px 10px 400px;
+    display: none;
+    padding: 10px;
+    max-width: 400px;
+    word-wrap: break-word;
+    position: fixed;
+}
+
+#datos{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	font: 15px Georgia,serif;
+}
+#datos li{
+	padding: 5px;
+	vertical-align: top;
+	margin: 0px 0px 1px;
+}
+footer{
+	margin: 0px auto;
+	width: auto;
+	height: 100px;
+	text-align: center;
+	color : black;
+	font-family: "Times New Roman", Times, serif;
+	background-color: #EDECEC;
+	padding-top: 20px;
+	box-shadow: inset 0 5px 15px rgba(0, 0, 0,0.2);
+}
