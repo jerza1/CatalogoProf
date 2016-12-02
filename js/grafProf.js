@@ -22,7 +22,7 @@ function desplegar(profes,inst){
 	var total = [];
 	var tam = inst.length;
 	for (var i = 0; i < tam; i++) {	total[i] = 0;	}
-	console.log(inst.length);
+	
 	for (var i = 0; i < profes.length; i++) {
 		for (var j = 0; j < tam; j++) {
 			if(profes[i].instituto_id == inst[j].id){
