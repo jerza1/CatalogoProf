@@ -20,12 +20,7 @@ function miFuncion(ruta,fun,myArr2) {
 	xmlhttp.send();
 }
 function carrera(carrera,myArr2) {
-    /*carr.addEventListener("change",function(){
-		miFuncion("json/grupo.json",desplegar,carrera);
-	});*/
-	anio.addEventListener("change",function(){
-		miFuncion("json/grupo.json",desplegar,carrera);
-	});
+	miFuncion("json/grupo.json",desplegar,carrera);
 }
 function desplegar(alumn,carrera){
 	var total = [];
@@ -40,7 +35,7 @@ function desplegar(alumn,carrera){
 			}
 		}
 	}
-	console.log(total);
+	
     ctx.fillStyle = "white";
     ctx.fillRect(0,0,cv.width,cv.height);
     ctx.fillStyle = "black";
@@ -62,6 +57,9 @@ function desplegar(alumn,carrera){
 	for (var i = 1; i < total.length; i++) {
 		ctx.fillRect(0,(18.5*i),total[i]*1.4,12);
 	}
+	anio.addEventListener("change",function(){
+		miFuncion("json/grupo.json",desplegar,carrera);
+	});
 }
 window.addEventListener("load",function(){
 	ctx.moveTo(0,cv.height-20);
