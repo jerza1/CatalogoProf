@@ -25,17 +25,21 @@ h1{
 	padding: 30px;
 	box-shadow: inset 0 10px 20px rgba(0, 0, 0, 0.8);
 }
-#anio{
-	font-size: 15px;	
+#anio {
+	margin: 0px auto;
+	width: 100px;
+	text-align: center;
+}
+#lista {
+	font-size: 20px;
 	font-family: sans-serif;
-	margin: 10px 10px;
-	width: 60px;
 	height: 30px;
 }
-#lienzo{
+#lienzo {
 	border: 2px solid black;
-	margin: 0px 23px;
-	
+	margin-left: auto;
+	display: block;
+	margin-right: auto;
 }
 footer{
 	margin: 0px auto;

@@ -4,16 +4,19 @@
 	<title>Gr&aacute;fica de Alumnos</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="css/alumn.css">
+	<script src="js/grafAlum.js"></script>
 </head>
 <body>
 	<div class = "contenedor">
 		<h1>Gr&aacute;fica de Alumnos por a&ntilde;o</h1>
-		<select id="anio">
-			<option value="2015">2015</option>
-			<option value="2016">2016</option>
-			<option value="2017" selected>2017</option>
-		</select>
-		<canvas id="lienzo" width="950" height="650">
+		<div id='anio'>	    
+			<select id="lista">
+				<option value="2015">2015</option>
+				<option value="2016">2016</option>
+				<option value="2017" selected>2017</option>
+			</select>
+		</div>
+		<canvas id="lienzo" width="650" height="480">
 			Su navegador no soporta el elemento CANVAS
 		</canvas>
 	</div>
@@ -23,5 +26,4 @@
 		2016-2017
 	</footer>
 </body>
-<script src="js/grafAlum.js"></script>
 </html>
