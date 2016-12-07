@@ -14,7 +14,7 @@ body{
 	min-height: 100%;
 	height: auto;
 	background-color: ghostwhite;
-	overflow: auto;
+	overflow: hidden;
 }
 .title{
 	color:white;
@@ -44,7 +44,7 @@ body{
 	background: black;
 	overflow: auto;
 }
-.title2{
+#title2{
 	font-size: 20px;
 	font-family: Georgia, serif;
 	background-color: lightblue;
